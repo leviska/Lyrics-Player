@@ -1,0 +1,47 @@
+<manifest package="ru.myitschool.iskandarovlev.lyricsplayer"
+          xmlns:android="http://schemas.android.com/apk/res/android"
+          android:installLocation="preferExternal">
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".PlaylistActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+        <service android:name=".PlaybackService">
+            <intent-filter>
+                <action android:name="ru.myitschool.lyricplayer.playbackservice"/>
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".PlaylistsManager"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity android:name=".SongsListActivity"
+                  android:label="@string/app_name">
+        </activity>
+    </application>
+
+</manifest>

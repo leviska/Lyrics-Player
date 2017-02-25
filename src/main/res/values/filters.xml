@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="filters">
+        <item>url: azlyrics.com</item>
+        <item>b + br + br + div</item>
+        <item>span + br + br + div</item>
+        <item>url: metrolyrics.com</item>
+        <item>div#lyrics-body-text.js-lyric-text</item>
+        <item>url: lyrics.wikia.com</item>
+        <item>div.lyricbox</item>
+        <item>url: musixmatch.com</item>
+        <item>p.mxm-lyrics__content</item>
+        <!--
+        Dont work :/
+        <item>url: lyricsfreak.com</item>
+        <item>div#content.lyrictxt</item>
+        -->
+        <item>url: songmeanings.com</item>
+        <item>div.holder lyric-box</item>
+    </string-array>
+</resources>

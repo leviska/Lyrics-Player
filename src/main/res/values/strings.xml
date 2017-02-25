@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Lyrics Player</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Настройки</string>
+
+    <string name="default_song_name">Неизвестная песня</string>
+    <string name="default_artist">Неизвестный исполнитель</string>
+    <string name="default_lyrics">Текст песни не найден</string>
+    <string name="default_playlist">Стандартный плейлист</string>
+
+    <string name="main_activity">Плеер</string>
+    <string name="current_playlist">Текущий плейлист</string>
+    <string name="playlist_list">Плейлисты</string>
+
+    <string name="error_lyrics">Произошла ошибка\nПроверьте подключение к интернету</string>
+    <string name="reload_lyrics">Повторно искать текст</string>
+    <string name="search_lyrics">Ищем текст</string>
+    <string name="lyrics_taken">Текст взят с сайта</string>
+    <string name="lyrics_not_found">Текст не найден</string>
+    <string name="search_again">Искать снова</string>
+    <string name="ignore_again">Следующий сайт</string>
+    <string name="lyrics_ended">Сайтов больше нету</string>
+
+    <string name="songs">Песен: </string>
+
+    <string name="m3u_tag">#EXTM3U</string>
+    <string name="m3u_song">#EXTINF:</string>
+
+    <string name="last.txt">last.txt</string>
+    <string name="filters.txt">filters.txt</string>
+
+    <string name="playlist_new_name_text">Введите имя плейлиста</string>
+    <string name="playlist_new_name">Новый плейлист</string>
+    <string name="done">Готово</string>
+    <string name="play">Воспроизвести</string>
+    <string name="edit">Редактировать</string>
+    <string name="delete">Удалить</string>
+
+    <item type="id" name="GROUP_TAG"/>
+    <item type="id" name="CHILD_TAG"/>
+</resources>

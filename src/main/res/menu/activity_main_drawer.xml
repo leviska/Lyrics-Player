@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/main_activity_menu"
+          android:icon="@drawable/ic_action_play"
+          android:title="@string/main_activity"/>
+    <item android:id="@+id/current_playlist_menu"
+          android:icon="@drawable/ic_action_playlist"
+          android:title="@string/current_playlist"/>
+    <item android:id="@+id/playlists_manager_item_menu"
+          android:icon="@drawable/ic_action_playlist"
+          android:title="@string/playlist_list"/>
+
+</menu>
